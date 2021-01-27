@@ -1,0 +1,21 @@
+.main-container {
+	max-width: 900px;
+}
+.input-group {
+	margin: 10px 0;
+}
+.input-group-text {
+	min-width: 90px;
+}
+.btn {
+	margin: 10px 0;
+	background-color: #e9ecef;
+	border-color: #ced4da;
+}
+.btn:hover {
+	background-color: #dee0e2;
+}
+.text-block {
+	min-height: 300px;
+	margin-top: 10px;
+}

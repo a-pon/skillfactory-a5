@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<div class="container main-container">
+		<div class="row">
+			<form>
+				<div class="input-group">
+					<label for="var1" class="input-group-text">var1</label>
+					<input type="text" name="var1" placeholder="Дед" class="form-control" id="var1">
+				</div>
+				<div class="input-group">
+					<label for="var2" class="input-group-text">var2</label>
+					<input type="text" name="var2" placeholder="Баба" class="form-control" id="var2">
+				</div>
+				<div class="input-group">
+					<label for="var3" class="input-group-text">var3</label>
+					<input type="text" name="var3" placeholder="Курочка Ряба" class="form-control" id="var3">
+				</div>
+				<div class="input-group">
+					<label for="var4" class="input-group-text">var4</label>
+					<input type="text" name="var4" placeholder="яичко" class="form-control" id="var4">
+				</div>
+				<div class="input-group">
+					<label for="var5" class="input-group-text">var5</label>
+					<input type="text" name="var5" placeholder="Мышка" class="form-control" id="var5">
+				</div>
+				<div class="input-group">
+					<label for="var6" class="input-group-text">var6</label>
+					<input type="text" name="var6" placeholder="хвостиком" class="form-control" id="var6">
+				</div>
+				<div class="input-group">
+					<label for="speach" class="input-group-text">speech</label>
+					<input type="text" name="speach" placeholder="Не плачь, дед, не плачь, баба: снесу вам новое яичко не золотое, а простое!" class="form-control" id="speach">
+				</div>
+
+				<div class="d-flex justify-content-evenly">
+					<button type="button" class="btn" id="button-create">Создать текст</button>
+					<button type="button" class="btn" id="button-replace">Заменить переменные</button>
+				</div>
+			</form>
+
+			<div class="form-control text-block" id="text-block"></div>
+		</div>
+	</div>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
